@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"> <% //因設備而異，而自動調整版面 %>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <% //瀏覽列的顏色和版面%>
-
+  
 <style>
 .dropbtn {
     background-color: #222222;
@@ -56,16 +56,15 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">NTUNHS</a>
+      <a class="navbar-brand" href="#">健管二手書店</a>
     </div>
     
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Buy Books</a></li>
-      <li><a href="#">Sell Books</a></li>
+      <li><a href="#">買家</a></li>
+      <li><a href="#">賣家</a></li>
       
       <div class="dropdown">
-       <button class="dropbtn">Members Only</button>
+       <button class="dropbtn">會員管理</button>
         <div class="dropdown-content">
          <a href="#">historical record</a>
          <a href="#">My Order</a>
