@@ -66,9 +66,9 @@
       <div class="dropdown">
        <button class="dropbtn">會員管理</button>
         <div class="dropdown-content">
-         <a href="#">historical record</a>
-         <a href="#">My Order</a>
-         <a href="#">my favourite </a>
+         <a href="#">歷史紀錄</a>
+         <a href="#">我的訂單</a>
+         <a href="#">收藏 </a>
         </div>
       </div>
                  
