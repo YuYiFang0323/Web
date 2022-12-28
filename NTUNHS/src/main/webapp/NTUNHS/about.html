@@ -30,12 +30,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-<style>
-table, th, td {
-  border:1px solid black;
-}
-div {text-align:center;}
-</style>
+
 
 </head>
 
@@ -152,26 +147,68 @@ div {text-align:center;}
 
 <section class="book_section layout_padding">
     <div class="container">
-      
       <div class="row">
+      
         <div class="col-md-6">
           <div class="form_container">
             <form action="">            
                <div>
-                <table style="width:100%">
+                <table style="border:3px #cccccc solid;" cellpadding="10" border='1' width="90%">
                  <tr style="height:500px">
-                  <td><input type="submit" value="新增圖片"></td>
+                  <td align="center"><input type="submit" value="新增圖片"></td>
                  </tr>
                  <tr>
-                 <td>至少上傳四張照片</td>
+                 <td align="center">請上傳三張照片</td>
                  </tr>
                 </table>
               </div>
             </form>
           </div>
         </div>
-        ID<input type="text" name="ID">
-       
+        
+         <div class="col-md-6">
+          <div class="form_container">
+            <form action="">            
+               
+                <table style="width:150%">
+                 <tr style="height:60px">
+                  <td align="center">學號：<input type="text" name="ID"></td>
+                 </tr>
+                 </table>
+                 <table style="width:150%">
+                 <tr style="height:60px">
+                 <td align="left">BookID：<input type="text" name="BookID" ></td>
+                 <td align="left">科目編碼：<input type="text" name="SujectID"></td>
+                 </tr>
+                  <tr style="height:60px">
+                 <td align="left">書名：　 <input type="text" name="BookTitle"></td>
+                 <td align="left">作者：　　<input type="text" name="Author"></td>
+                 </tr>
+                  <tr style="height:60px">
+                 <td align="left">出版社： <input type="text" name="Publisher"></td>
+                 <td align="left">ISBI：　　 <input type="text" name="ISBI"></td>
+                 </tr>
+                  <tr style="height:60px">
+                 <td align="left">原價： 　<input type="text" name="OriginalPrice"></td>
+                 <td align="left">價格：　　<input type="text" name="Price"></td>
+                 </tr>
+                  <tr style="height:60px">
+                 <td align="left">數量： 　<input type="text" name="Quantity"></td>
+                 <td align="left">上假日期：<input type="text" name="SoldDate"></td>
+                 </tr>
+                </table>
+             <table style="width:150%">
+                 <tr style="height:60px">
+                  <td align="center"><input type="submit" value="確定上架"></td>
+                 </tr>
+                 </table>
+            </form>
+          </div>
+        </div>
+        
+        
+        
+        
       </div>
     </div>
   </section>
