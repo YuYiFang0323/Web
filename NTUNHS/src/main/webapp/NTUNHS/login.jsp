@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>L登入</title>
+<title>登入</title>
  <style>
  
  .box1 {height: 200px;}
@@ -25,7 +25,9 @@
              background-attachment: fixed;
              background-position: center;
              background-size:cover;"  >
+             
 <div class="box1"></div>
+
 <form action="Loing-Select.jsp" method="post">
    <table align="center">
     <tr >
