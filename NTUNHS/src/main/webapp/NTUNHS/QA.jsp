@@ -36,7 +36,7 @@ B.字跡、外圍磨損、髒污<br>C.多處摺頁標籤(OR摺痕)、字跡、�
         </div>
        <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a href="Transaction Description Selling Books.jsp" class="footer-logo">
              交易說明
             </a>
 
