@@ -1,21 +1,61 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 
   <meta charset="utf-8" />
 
-  <title> ¥_Å@¤G¤â®Ñ¥­¥x </title>
+  <title> åŒ—è­·äºŒæ‰‹æ›¸å¹³å° </title>
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
    
-  <!-- ·|­û¹Ï®× -->
+  <!-- æœƒå“¡åœ–æ¡ˆ -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
   <link href="css/style.css" rel="stylesheet" />
 
-  
+  <style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-item-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-item-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-item-menu a:hover {background-color: #f1f1f1}
+
+.nav-item:hover .nav-item-menu {
+  display: block;
+}
+
+.nav-item:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
 
 </head>
 <body class="sub_page">
@@ -30,7 +70,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.jsp">
             <span>
-              ¥_Å@¤G¤â®Ñ¥­¥x
+              åŒ—è­·äºŒæ‰‹æ›¸å¹³å°
             </span>
           </a>
 
@@ -39,15 +79,6 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
-<<<<<<< HEAD
-                <a class="nav-link" href="index.html">­º­¶ </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu2.html">¶R®Ñ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">½æ®Ñ</a>
-=======
                 <a class="nav-link" href="index.jsp">é¦–é  </a>
               </li>
               <li class="nav-item">
@@ -55,10 +86,22 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="sell book.jsp">è³£æ›¸</a>
->>>>>>> a795928e11afd496fb5ad0358dd79c62e561a904
               </li>
+<<<<<<< HEAD
+               <li class="nav-item">
+              <button style="background-color:transparent;border:none" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"> æœƒå“¡å°ˆå€ </button>
+              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
+              <a class="list-group-item"href="#">123</a>
+              <a class="list-group-item"href="#">456</a>
+=======
               <li class="nav-item">
-                <a class="nav-link" href="">·|­ûºŞ²z </a>
+              <button class="btn btn-secondary nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"> æœƒå“¡å°ˆå€ </button>
+              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
+              <a class="list-group-item"href="#">æ”¶è—</a>
+              <a class="list-group-item"href="#">è²·/è³£æ›¸è¨‚å–®</a>
+              <a class="list-group-item"href="#">è²·/è³£æ›¸ç´€éŒ„</a>
+>>>>>>> 1b8559f24b82528d4845dec33f3bb713af0f8106
+              </div>
               </li>
             </ul>
             <div class="user_option">
@@ -90,7 +133,7 @@
                 </svg>
               </a>
               <a href="" class="order_online">
-                µn¤JªÌ 
+                ç™»å…¥è€… 
               </a>
             </div>
           </div>
