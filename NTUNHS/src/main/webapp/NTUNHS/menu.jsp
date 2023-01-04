@@ -15,7 +15,47 @@
 
   <link href="css/style.css" rel="stylesheet" />
 
-  
+  <style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-item-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-item-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-item-menu a:hover {background-color: #f1f1f1}
+
+.nav-item:hover .nav-item-menu {
+  display: block;
+}
+
+.nav-item:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
 
 </head>
 <body class="sub_page">
@@ -48,7 +88,12 @@
                 <a class="nav-link" href="sell book.jsp">賣書</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">會員管理 </a>
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"aria-disabled="true"> 會員專區 </button>
+              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="dropdownMenuButton">
+              <a class="list-group-item"href="#">收藏</a>
+              <a class="list-group-item"href="#">買/賣書訂單</a>
+              <a class="list-group-item"href="#">買/賣書紀錄</a>
+              </div>
               </li>
             </ul>
             <div class="user_option">
