@@ -22,13 +22,13 @@
 
 <div class="hero_area">
     <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
+      <img src="images/111.jpg" alt="">
     </div>
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.jsp">
             <span>
               •_≈@§G§‚Æ—•≠•x
             </span>
@@ -39,6 +39,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link" href="index.html">≠∫≠∂ </a>
               </li>
               <li class="nav-item">
@@ -46,6 +47,15 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">ΩÊÆ—</a>
+=======
+                <a class="nav-link" href="index.jsp">È¶ñÈ†Å </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="buy book.jsp">Ë≤∑Êõ∏</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sell book.jsp">Ë≥£Êõ∏</a>
+>>>>>>> a795928e11afd496fb5ad0358dd79c62e561a904
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">∑|≠˚∫ﬁ≤z </a>
@@ -83,6 +93,10 @@
                 µn§J™Ã 
               </a>
             </div>
+          </div>
+          </nav>
+          </div>
+          </header>
           </div>
 </body>
 </html>
