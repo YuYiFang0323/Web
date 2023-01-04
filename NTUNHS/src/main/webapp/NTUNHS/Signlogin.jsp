@@ -1,8 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="BIG5">
-<title>µn¤Jµe­±</title>
+<meta charset="utf-8">
+<title>Lç™»å…¥</title>
  <style>
  
  .box1 {height: 200px;}
@@ -22,19 +24,22 @@
              background-repeat: no-repeat; 
              background-attachment: fixed;
              background-position: center;
-             background-size:1400px 680px;"  >
-
+             background-size:cover;"  >
 <div class="box1"></div>
+<form action="Loing-Select.jsp" method="post">
    <table align="center">
     <tr >
       <td align="center" >
-    ¾Ç¸¹¡G<input type="text" name="ID"><br><br>
-        <input type="submit" value="µn¤J" >
+    å­¸è™Ÿ:<input type="text" name="ID"><br><br>
+    å¯†ç¢¼:<input type="text" name="Pwd"><br><br>
+        <a href="index.html">
+         <input type="submit" value="ç™»å…¥" >
+        </a>
       </td>
     </tr>
    </table>
   
-
+</form>
 
 </body>
 </html>
