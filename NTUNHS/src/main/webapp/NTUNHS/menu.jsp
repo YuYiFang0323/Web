@@ -22,13 +22,13 @@
 
 <div class="hero_area">
     <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
+      <img src="images/111.jpg" alt="">
     </div>
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.jsp">
             <span>
               北護二手書平台
             </span>
@@ -39,13 +39,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">首頁 </a>
+                <a class="nav-link" href="index.jsp">首頁 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu2.html">買書</a>
+                <a class="nav-link" href="buy book.jsp">買書</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">賣書</a>
+                <a class="nav-link" href="sell book.jsp">賣書</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">會員管理 </a>
@@ -83,6 +83,10 @@
                 登入者 
               </a>
             </div>
+          </div>
+          </nav>
+          </div>
+          </header>
           </div>
 </body>
 </html>
