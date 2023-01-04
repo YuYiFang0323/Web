@@ -15,7 +15,7 @@ if(request.getParameter("ID") !=null &&
 	if(members.next()){
 		session.setAttribute("accessId",request.getParameter("ID"));
 		//session.setMaxInactiveInterval(20); ¦Û°Êµn¥X
-		response.sendRedirect("index.jsp");
+		response.sendRedirect("index.html");
 	}else
 		response.sendRedirect("login.jsp?status=loginerror");
 }
