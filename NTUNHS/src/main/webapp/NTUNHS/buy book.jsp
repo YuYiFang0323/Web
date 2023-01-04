@@ -412,7 +412,7 @@
         </div>
        <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a href="Transaction Description Selling Books.jsp" class="footer-logo">
              交易說明
             </a>
 
