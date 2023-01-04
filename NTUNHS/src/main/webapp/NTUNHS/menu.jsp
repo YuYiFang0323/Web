@@ -47,8 +47,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="sell book.jsp">賣書</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">會員管理 </a>
+               <li class="nav-item">
+              <button style="background-color:transparent;border:none" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"> 會員專區 </button>
+              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
+              <a class="list-group-item"href="#">123</a>
+              <a class="list-group-item"href="#">456</a>
+              </div>
               </li>
             </ul>
             <div class="user_option">
