@@ -88,8 +88,8 @@
                 <a class="nav-link" href="sell book.jsp">賣書</a>
               </li>
               <li class="nav-item">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"aria-disabled="true"> 會員專區 </button>
-              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="dropdownMenuButton">
+              <button class="btn btn-secondary nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"> 會員專區 </button>
+              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
               <a class="list-group-item"href="#">收藏</a>
               <a class="list-group-item"href="#">買/賣書訂單</a>
               <a class="list-group-item"href="#">買/賣書紀錄</a>
