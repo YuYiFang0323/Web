@@ -1,16 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 
   <meta charset="utf-8" />
 
-  <title> ¥_Å@¤G¤â®Ñ¥­¥x </title>
+  <title> åŒ—è­·äºŒæ‰‹æ›¸å¹³å° </title>
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
    
-  <!-- ·|­û¹Ï®× -->
+  <!-- æœƒå“¡åœ–æ¡ˆ -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
   <link href="css/style.css" rel="stylesheet" />
@@ -30,7 +30,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              ¥_Å@¤G¤â®Ñ¥­¥x
+              åŒ—è­·äºŒæ‰‹æ›¸å¹³å°
             </span>
           </a>
 
@@ -39,16 +39,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">­º­¶ </a>
+                <a class="nav-link" href="index.html">é¦–é  </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu2.html">¶R®Ñ</a>
+                <a class="nav-link" href="menu2.html">è²·æ›¸</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">½æ®Ñ</a>
+                <a class="nav-link" href="about.html">è³£æ›¸</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">·|­ûºÞ²z </a>
+                <a class="nav-link" href="">æœƒå“¡ç®¡ç† </a>
               </li>
             </ul>
             <div class="user_option">
@@ -80,7 +80,7 @@
                 </svg>
               </a>
               <a href="" class="order_online">
-                µn¤JªÌ 
+                ç™»å…¥è€… 
               </a>
             </div>
           </div>
