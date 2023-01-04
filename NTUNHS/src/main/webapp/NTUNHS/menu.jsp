@@ -87,20 +87,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="sell book.jsp">賣書</a>
               </li>
-<<<<<<< HEAD
+
                <li class="nav-item">
               <button style="background-color:transparent;border:none" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"> 會員專區 </button>
               <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
-              <a class="list-group-item"href="#">123</a>
-              <a class="list-group-item"href="#">456</a>
-=======
-              <li class="nav-item">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"aria-disabled="true"> 會員專區 </button>
-              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="dropdownMenuButton">
               <a class="list-group-item"href="#">收藏</a>
               <a class="list-group-item"href="#">買/賣書訂單</a>
               <a class="list-group-item"href="#">買/賣書紀錄</a>
->>>>>>> 1b8559f24b82528d4845dec33f3bb713af0f8106
               </div>
               </li>
             </ul>
