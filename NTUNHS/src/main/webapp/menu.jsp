@@ -7,6 +7,9 @@
   <meta charset="utf-8" />
 
   <title> 北護二手書平台 </title>
+   <%
+        String rqname = request.getParameter("name");
+        %>
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
    
@@ -92,7 +95,7 @@
               <button style="background-color:transparent;border:none" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true">會員專區</button>
               <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
               <a class="list-group-item"href="#">收藏</a>
-              <a class="list-group-item"href="#">買/賣書訂單</p></a>
+              <a class="list-group-item"href="#">買/賣書訂單</a>
               <a class="list-group-item"href="#">買/賣書紀錄</a>
               </div>
               </li>
@@ -126,7 +129,11 @@
                 </svg>
               </a>
               <a href="" class="order_online">
-                登入者 
+                <%
+                    String strName;
+                    strName = request.getParameter("ID");
+                    out.println(strName);
+                %>
               </a>
             </div>
           </div>
