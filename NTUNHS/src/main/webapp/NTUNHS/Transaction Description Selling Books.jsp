@@ -14,15 +14,15 @@ th, td {
 <title>北護二手書平台</title>
 </head>
 <body>
-<h1 style="font-family:標楷體;">如何賣書?4步驟超簡單</h1>
+<h1 style="font-family:標楷體;font-size:40px;">如何賣書?4步驟超簡單</h1>
 <table style="width:100%">
-  <tr style="height:500px">
-    <td style="width:50%;" align="center"><p style="font-size:40px;">1填寫賣書資料</p><br><img src="images/a.jpg" width="600px" height="400px"></td>
-    <td style="width:50%" align="center"><p style="font-size:40px;">2上傳圖片：拍三張，分別為封面、內頁、側邊</p><br><img src="images/b.jpg" width="600px" height="400px"></td>
+  <tr>
+    <td style="width:50%;" align="center"><p style="font-size:30px;">1填寫賣書資料</p><br><img src="images/a.jpg" width="600px" height="400px"></td>
+    <td style="width:50%" align="center"><p style="font-size:30px;">2上傳圖片：拍三張，分別為封面、內頁、側邊</p><br><img src="images/b.jpg" width="600px" height="400px"></td>
   </tr>
-  <tr style="height:500px">
-  <td style="width:50%" align="center"><p style="font-size:40px;">3 選擇書況樣式</p><br><img src="images/c.jpg" width="600px" height="400px"></td>
-  <td style="width:50%" align="center"><p style="font-size:40px;">4 確定上架</p><br><img src="images/d.jpg" width="600px" height="400px"></td>
+  <tr>
+  <td style="width:50%" align="center"><p style="font-size:30px;">3 選擇書況樣式</p><br><img src="images/c.jpg" width="600px" height="400px"></td>
+  <td style="width:50%" align="center"><p style="font-size:30px;">4 確定上架</p><br><img src="images/d.jpg" width="600px" height="400px"></td>
   </tr>
 </table>
 
