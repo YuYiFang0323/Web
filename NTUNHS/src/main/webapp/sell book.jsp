@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-    <%@include file ="menu.jsp" %>
+<%@include file ="menu.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,49 +67,12 @@
                  </table>
             </form>
           </div>
-        </div>
-        
-        
-        
+        </div>   
         
       </div>
     </div>
   </section>
-
-
-  <footer class="footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="QA.jsp" class="footer-logo">
-              常見Q&A
-            </a>
-
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="" class="footer-logo">
-              聯絡管理員
-            </a>
-
-          </div>
-        </div>
-       <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="Transaction Description Selling Books.jsp" class="footer-logo">
-             交易說明
-            </a>
-
-          </div>
-        </div>
-      </div>
-   
-    </div>
-  </footer>
-  <!-- footer section -->
-
   
 </body>
 </html>
+<%@include file ="footer.jsp" %>

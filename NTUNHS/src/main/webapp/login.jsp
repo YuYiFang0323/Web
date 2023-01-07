@@ -45,16 +45,37 @@
              background-size:1400px 680px;"  >
              
 <div class="box1"></div>
+ 					
 <form action="login_DBSelect.jsp" method="post">
    <table align="center">
       <tr>
-        <td align="center">
-       帳號：<input type="text" name="ID"><br><br>
-       密碼：<input type="text" name="Pwd"><br><br>
-           <input type="submit" value="登入">
+        <td align="center">   
+            
+       <span style="font-size:24px"><b>登入系統</b></span><br><br>
+       
+       <font>
+       帳號：<input type="text" name="ID" style="font-size:16px"><br><br>              
+       密碼：<input type="text" name="Pwd" style="font-size:16px"><br><br>       
+           <input type="submit" value="登入" style="font-size:18px">
+       </font> 
+       
         </td>
       </tr>
   </table>
+  
+           <span style="text-align:center; font-weight:bold; color:#BD3F24">
+               <%if(request.getParameter("status")!="" && request.getParameter("status")!=null){
+	             if(request.getParameter("status").equals("loginerror")){ %>
+	             <table align="center">
+                   <tr>
+                     <td>	             
+		                帳號或密碼錯誤，請重新輸入!			      
+                     </td>
+                   </tr>
+                 </table>	
+	           <%}else{} }%>					
+           </span> 
+   
 </form>
 
 </body>

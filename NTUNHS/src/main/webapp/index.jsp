@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-    <%@include file ="menu.jsp" %>
+<%@include file ="menu.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,16 +49,6 @@
      </section> 
      </div> 
  
-
-  <!-- end about section -->
-
-  <!-- book section -->
-    <!-- end slider section -->
-
-
-  <!-- offer section -->
-  <!-- end offer section -->
-  <!-- food section -->
 
   <section class="food_section layout_padding-bottom">
     <div class="container">
@@ -380,48 +370,9 @@
 
   <section class="client_section layout_padding-bottom">
    <div class="owl-carousel client_owl-carousel">
-    </div>
-      
-  
-  </section>
-
-  <!-- end client section -->
-
-  <!-- footer section -->
-
-  
-  <footer class="footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="QA.jsp" class="footer-logo">
-              常見Q&A
-            </a>
-
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="" class="footer-logo">
-              聯絡管理員
-            </a>
-
-          </div>
-        </div>
-       <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="Transaction Description Selling Books.jsp" class="footer-logo">
-             交易說明
-            </a>
-
-          </div>
-        </div>
-      </div>
-   
-    </div>
-  </footer>
-  <!-- footer section -->
+    </div>    
+   </section>
 
 </body>
 </html>
+<%@include file ="footer.jsp" %>
