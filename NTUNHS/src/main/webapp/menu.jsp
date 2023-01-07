@@ -130,10 +130,14 @@
               </a>
               <a href="" class="order_online">
                 <%
-                    String strName;
-                    strName = request.getParameter("ID");
-                    out.println(strName);
-                %>
+					if(session.getAttribute("accessId") == null){
+						out.println("");
+					}else{
+						out.println(session.getAttribute("accessId"));
+					}
+			 %>
+                              
+                	 
               </a>
             </div>
           </div>
