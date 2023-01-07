@@ -11,7 +11,7 @@
 <%
 
    Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-    Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\NTUNHS\\Ntunhs.accdb;");
+    Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\m\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb;");
 	if(con.isClosed())
 		out.println("資料庫已經關閉!<br>");
 	else
