@@ -8,10 +8,9 @@
 <style>
 
 td {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 0px;
-  padding-left: 850px;
-  padding-right: 500px;
+ 
 }
 </style>
 
@@ -19,7 +18,121 @@ td {
 <title>北護二手書平台</title>
 </head>
 <body>
- <table><tr><td align="center"><input type="text" name="BookTitle" style="font-size:16px" width="100%" background="black"></td></tr></table>
+ <table>
+ <tr>
+ <td style=" padding-left:400px"><input type="text" name="BookTitle" placeholder="請輸入欲查詢書本" style="font-size:20px;width:300%" background="black"></td>
+ <td style="padding-left: 500px;">
+ <select name="s1">			
+<option>國文                
+<option>英文                
+<option>公共衛生概論                
+<option>巨量資料分析研討                
+<option>生物統計學與實驗(一)
+<option>生物統計學與實驗(二)
+<option>系統分析與設計
+<option>法律倫理與生活
+<option>長期照護概論
+<option>長期照護實務
+<option>品質分析統計應用
+<option>流行病學
+<option>流行病學方法論
+<option>研究方法論
+<option>研究概論
+<option>科技與生活
+<option>個案管理
+<option>哲學與人生
+<option>哲學與宗教
+<option>疾病分類規則
+<option>病理學
+<option>病歷管理
+<option>健康事業行銷管理學
+<option>健康事業品質管理學
+<option>健康事業財務管理學
+<option>健康事業組織理論與管理
+<option>健康事業資訊管理學
+<option>健康事業管理專題研討
+<option>健康事業管理實務專題(一)
+<option>健康事業管理實務專題(二)
+<option>健康事業管理職涯探勘
+<option>健康事業機構成本管理
+<option>健康事業機構作業管理
+<option>健康事業機構見習
+<option>健康事業機構績效評估
+<option>健康事業機構績效管理
+<option>健康空間資料分析
+<option>健康保險學
+<option>健康政策與策略
+<option>健康科技導論
+<option>健康產業專題研討
+<option>健康組織溝通
+<option>健康照護人力資源管理學
+<option>健康照護文獻選讀與批判
+<option>健康照護行銷管理專題研討
+<option>健康照護行銷管理學
+<option>健康照護品質管理學
+<option>健康照護倫理與法律
+<option>健康照護財務管理學
+<option>健康照護問題與決策
+<option>健康照護專業倫理
+<option>健康照護組織行為學
+<option>健康照護策略管理
+<option>健康照護資料分析與決策
+<option>健康照護資料處理研究
+<option>健康照護管理實習
+<option>健康照護管理學
+<option>健康照護模擬分析
+<option>健康照護論文解析
+<option>健康照護體系概論
+<option>健康經濟學
+<option>健康環境管理與實作
+<option>問題分析與解決
+<option>專案管理
+<option>專題研究
+<option>組織分析
+<option>組織行為學
+<option>組織社會網絡分析
+<option>統計套裝軟體
+<option>統計應用與資料分析
+<option>連鎖機構管理
+<option>創意品質專題研討
+<option>創業管理
+<option>程式設計
+<option>進階應用統計學
+<option>開放軟體統計應用與健康資料分析
+<option>傳染病學
+<option>微積分
+<option>會計學
+<option>當代藝術導論
+<option>經濟學
+<option>解剖生理學
+<option>資料庫管理系統
+<option>資訊素養與網路運用
+<option>資訊管理實務專題(一)
+<option>電腦軟體整合應用
+<option>實證醫學統計方法
+<option>碩士論文
+<option>管理心理學
+<option>衛生統計
+<option>調查研究法
+<option>質性研究法
+<option>學術論文寫作
+<option>整合性健康照護
+<option>應用法規導論
+<option>應用迴歸分析
+<option>應用預測分析
+<option>環境永續與資訊科學
+<option>環境教育
+<option>醫學字辭學
+<option>醫學概論
+<option>醫療資訊概論
+<option>醫療機構見習
+<option>藝術文化史
+<option>藥品概論與品質管理
+<option>顧客關係管理						
+			</select>
+</td>
+ </tr>
+ </table>
  
   <section class="food_section layout_padding">
     <div class="container">
