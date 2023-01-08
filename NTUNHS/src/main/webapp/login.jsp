@@ -23,9 +23,10 @@
 <head>
 <meta charset="utf-8">
 <title>北護二手書平台</title>
+
  <style>
  
- .box1 {height: 200px;}
+ .box {height: 200px;}
   
  .table, th, td {
   border:1px solid black;
@@ -42,9 +43,10 @@
              background-repeat: no-repeat; 
              background-attachment: fixed;
              background-position: center;
-             background-size:1400px 680px;"  >
+             background-size:1400px 680px;"
+             >
              
-<div class="box1"></div>
+<div class="box"></div>
  					
 <form action="login_DBSelect.jsp" method="post">
    <table align="center">

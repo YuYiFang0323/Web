@@ -17,11 +17,12 @@ td {
 <meta charset="utf-8">
 <title>北護二手書平台</title>
 </head>
+
 <body>
  <table>
  <tr>
- <td style=" padding-left:400px"><input type="text" name="BookTitle" placeholder="請輸入欲查詢書本" style="font-size:20px;width:300%" background="black"></td>
- <td style="padding-left: 500px;">
+ <td style=" padding-left:400px;  width: 65%;"><input type="text" name="BookTitle" placeholder="請輸入欲查詢書本" style="font-size:20px;width:100%" background="black"></td>
+ <td style="padding-left: 500px;font-size:20px;">
  <select name="s1">			
 <option>國文                
 <option>英文                
@@ -129,8 +130,10 @@ td {
 <option>藝術文化史
 <option>藥品概論與品質管理
 <option>顧客關係管理						
-			</select>
+</select>
 </td>
+
+<td style="padding-left: 30px;"><input type="submit" value="搜尋" style="font-size:20px"></td>
  </tr>
  </table>
  

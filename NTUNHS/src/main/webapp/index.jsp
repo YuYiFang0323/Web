@@ -7,6 +7,7 @@
 <meta charset="utf-8">
 <title>北護二手書平台</title>
 </head>
+
 <body>
 <div class="hero_area">
     <div class="bg-box">
@@ -54,7 +55,7 @@
     <div class="container">
       <div class="heading_container heading_center">
   
-  
+       <br>
         <h2>
           最新上架
         </h2>

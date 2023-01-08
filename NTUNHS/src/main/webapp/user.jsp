@@ -8,12 +8,34 @@
 <head>
 <meta charset="utf-8">
 <title>北護二手書平台</title>
-<style>
- .table, th, td {
-  border:1px solid black;
-  border-collapse: collapse;
-  background-color: #FFFFFF; 
-  padding: 15px; } 
+<style  type="text/css">
+   
+  .Data-Content {
+        width: 100%; /* 表單寬度 */
+        line-height: 25px;
+         
+    }
+
+  .Data-Title {
+        float: left;
+        width: 41%; /* Label寬度，視情況調整 */
+        margin-right: 20px;
+        
+    }
+
+  .Data-Items {
+        float: left;
+        width: 25%;
+    }
+
+  .AlignRight {
+        text-align: right;
+        color:#FFFFFF;
+        font-size:20px;
+        
+         }
+    
+  .box {height:350px;}
 </style>
 
 </head>
@@ -23,47 +45,43 @@
              background-attachment: roll;
              background-position: center;
              background-size:1400px 680px;">
-
-   <%
-	    if(session.getAttribute("accessId") == null){
-		   out.println("");
-		}else{
-		   out.println(session.getAttribute("accessId"));
-		}%> 
+   
 	<%	
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://"+objDBConfig.FilePath()+";");
 	Statement smt= con.createStatement();
-	String sql = "SELECT * FROM Member  WHERE ID ='" +102114912+"'"; 
+	String sql = "SELECT * FROM Member  WHERE ID ='" +102114917+"'"; 
 	ResultSet rs = smt.executeQuery(sql);
 	rs.next();
 	//連結DB
 	%>
 	
-<br>
-<form>  
-   <table align="center">
-     <tr >   
-       	    
-        <td align="left">
-        <p style="font-size:24px; text-align:center"><b>使用者資料</b></p>       
-        
-        學號： <input type="text" value="<%=rs.getString("ID") %> " readonly="readonly"><br><br>    
-        
-        名字： <input type="text" value="<%=rs.getString("Name") %>" readonly="readonly"> <br><br>    
-      
-        班級： <input type="text" value="<%=rs.getString("Class") %>" readonly="readonly"> <br><br>    
-        
-        信箱： <input type="email" value="<%=rs.getString("Email") %>" readonly="readonly"> <br><br>    
-      
-        黑名單：<input type="text" value="<%=rs.getString("Blacklist") %>" readonly="readonly"> <br><br>   
-         
-       </td>      
-      </tr> 
-    </table>
-</form>
-<br>
+	
+<br><br><br>
+<form>
+
+<div class="Data-Content">
+    <div class="Data-Title">
+        <div class="AlignRight">
+            <label for="txt_id">學號：</label><br><br>
+            <label for="txt_name">名字：</label><br><br>
+            <label for="txt_class">班級：</label><br><br>
+            <label for="txt_email">信箱：</label><br><br>
+            <label for="txt_blacklist">黑名單：</label><br>
+        </div>
+    </div>
+    <div class="Data-Items" >
+        <input type="text" id="txt_id" value="<%=rs.getString("ID") %>" readonly="readonly"/><br><br>
+        <input type="text" id="txt_name" value="<%=rs.getString("Name") %>" readonly="readonly"/><br><br>
+        <input type="text" id="txt_class" value="<%=rs.getString("Class") %>" readonly="readonly"/><br><br>
+        <input type="text" id="txt_email" value="<%=rs.getString("Email") %>" readonly="readonly"/><br><br>
+        <input type="text" id="txt_blacklist" value="<%=rs.getString("Blacklist") %>" readonly="readonly"/><br>
+    </div>
+</div>
+
+
+</form> 
+<div class="box"></div>
 
 </body>
 </html>
