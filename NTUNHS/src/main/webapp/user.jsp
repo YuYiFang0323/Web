@@ -35,7 +35,7 @@
 
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://"+objDBConfig.FilePath()+";");
 	Statement smt= con.createStatement();
-	String sql = "SELECT * FROM Member  WHERE ID ='" +102114909+"'"; 
+	String sql = "SELECT * FROM Member  WHERE ID ='" +102114912+"'"; 
 	ResultSet rs = smt.executeQuery(sql);
 	rs.next();
 	//連結DB
