@@ -106,7 +106,7 @@
             
             <div class="user_option">
             
-              <a href="" class="user_link" href="user.jsp" >
+              <a href="user.jsp" class="user_link"  >
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               
@@ -141,7 +141,7 @@
 					}else{
 						out.println(session.getAttribute("accessId"));
 					}
-			 %>
+			     %>
                               
                 	 
               </a>
