@@ -49,15 +49,15 @@
         <td align="left">
         <p style="font-size:24px; text-align:center"><b>使用者資料</b></p>       
         
-        學號： <input type="text" value="<%=rs.getString("ID") %>"><br><br>    
+        學號： <input type="text" value="<%=rs.getString("ID") %> " readonly="readonly"><br><br>    
         
-        名字： <input type="text" value="<%=rs.getString("Name") %>"> <br><br>    
+        名字： <input type="text" value="<%=rs.getString("Name") %>" readonly="readonly"> <br><br>    
       
-        班級： <input type="text" value="<%=rs.getString("Class") %>"> <br><br>    
+        班級： <input type="text" value="<%=rs.getString("Class") %>" readonly="readonly"> <br><br>    
         
-        信箱： <input type="email" value="<%=rs.getString("Email") %>"> <br><br>    
+        信箱： <input type="email" value="<%=rs.getString("Email") %>" readonly="readonly"> <br><br>    
       
-        黑名單：<input type="text" value="<%=rs.getString("Blacklist") %>"> <br><br>   
+        黑名單：<input type="text" value="<%=rs.getString("Blacklist") %>" readonly="readonly"> <br><br>   
          
        </td>      
       </tr> 
