@@ -32,9 +32,19 @@
 		}%> 
 	<%	
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+<<<<<<< HEAD
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://"+objDBConfig.FilePath()+";");
 	Statement smt= con.createStatement();
 	String sql = "SELECT * FROM Member  WHERE ID ='" +102114909+"'";
+=======
+   Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\m\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb;");
+   Statement smt= con.createStatement();
+	String name = request.getParameter("name");
+	
+	
+	String sql = "SELECT * FROM Member WHERE name ='" + name + "'";
+	String color;
+>>>>>>> daaf08a9461480c4d6c43edb09c15dd272606320
 	ResultSet rs = smt.executeQuery(sql);
 	rs.next();
 	//連結DB
