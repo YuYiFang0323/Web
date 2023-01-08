@@ -4,12 +4,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<style>
+
+td {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 850px;
+  padding-right: 500px;
+}
+</style>
+
 <meta charset="utf-8">
 <title>北護二手書平台</title>
 </head>
 <body>
+ <table><tr><td align="center"><input type="text" name="BookTitle" style="font-size:16px" width="100%" background="black"></td></tr></table>
+ 
   <section class="food_section layout_padding">
     <div class="container">
+     
       <div class="heading_container heading_center">
         <h2>
           最新上架

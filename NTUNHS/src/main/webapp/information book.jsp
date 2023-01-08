@@ -15,7 +15,7 @@
 <div class="col-sm-15 xs-hide sm-hide" style="padding:0px;">
 <div class="col-sm-15" style=" padding-left: 0px;">
 <h4 style="font-weight:bold; margin-top:0px;line-height:30px;"><br>
-讀冊【二手徵求好處多】| 誰搬走了我的乳酪？<br><span style="color:#755e5f; font-weight: normal; font-size:30px;">（二手書交易資訊）</span>
+<span style="color:#755e5f; font-weight: normal; font-size:30px;">二手書交易資訊</span><br>書名：
 
 </h4>
 </div>
@@ -40,8 +40,11 @@
 <p><span class="span04">出版社：<span><a href="C:\\Users\\User\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb" class="linkStyle02">奧林文化事業有限公司</a></span></span></p>
 <p><span class="span04">ISBN：<span class="span04">9570391014</span></span></p>
 <p><span class="span04">定價：</span><span style=" text-decoration: line-through;margin-left: 5px; color: #333333;">元</span>
-<p style="margin:0 0;"><span>二手價：<small>NT$</small> <span style="color:#e2007e;"><strong>310</strong></span></span></p>
-
+<p><span class="span04">二手價：<small>NT$</small><span class="span04" style="color:#e2007e;"><strong>310</strong></span></span></p>
+<p><span class="span04">數量：<span class="span04">1</span></span></p>
+<p><span class="span04">書況說明：<span class="span04">1</span></span></p>
+<p><span class="span04">賣家資訊：<span class="span04">1</span></span></p>
+<input type="submit" value="聯絡賣家我要購買">　　　　<input type="submit" value="收藏">
 </div></td>
   </tr>
 </table>
