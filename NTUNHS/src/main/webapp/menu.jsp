@@ -10,7 +10,8 @@
    <%
         String rqname = request.getParameter("name");
         %>
-
+  <link rel="shortcut icon" href="images/NTUNHS.ico" />
+  
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
    
   <!-- 會員圖案 -->
@@ -82,28 +83,33 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
-                <a class="nav-link" href="index.jsp">首頁 </a>
+                <a class="nav-link" href="index.jsp" style=font-size:22px><b>首頁</b> </a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="buy book.jsp">買書</a>
+                <a class="nav-link" href="buy book.jsp" style=font-size:22px><b>買書</b></a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="sell book.jsp">賣書</a>
+                <a class="nav-link" href="sell book.jsp" style=font-size:22px><b>賣書</b></a>
               </li>
 
                <li class="nav-item">
-              <button style="background-color:transparent;border:none" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true">會員專區</button>
-              <div class="nav-item-menu" style="padding:0;" id="menu1"aria-labelledby="nav-itemMenuButton">
-              <a class="list-group-item"href="#">收藏</a>
-              <a class="list-group-item"href="#">買/賣書訂單</a>
-              <a class="list-group-item"href="#">買/賣書紀錄</a>
+              <button style="background-color:transparent;border:none;font-size:22px" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"><b>會員專區</b></button>
+              <div class="nav-item-menu" style="padding:0;font-size:18px" id="menu1"aria-labelledby="nav-itemMenuButton">
+              <a class="list-group-item"href="#" ><b>收藏</b></a>
+              <a class="list-group-item"href="#" ><b>買/賣書訂單</b></a>
+              <a class="list-group-item"href="#" ><b>買/賣書紀錄</b></a>
               </div>
               </li>
             </ul>
+            
             <div class="user_option">
-              <a href="" class="user_link">
+            
+              <a href="" class="user_link" href="user.jsp" >
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
+              
               <a class="cart_link" href="#">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                 
