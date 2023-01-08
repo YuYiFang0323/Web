@@ -13,7 +13,7 @@
 <body onload="init()" 
       style="background-image: url('images/005.jpg'); 
              background-repeat: no-repeat; 
-             background-attachment: fixed;
+             background-attachment: scroll;
              background-position: center;
              background-size:1400px 680px;
              text-align:center;"><br>
@@ -61,6 +61,7 @@
         toText.value=initTo;
         bodyText.value=initBody; }
 </script><br>
+<%@include file ="footer.jsp" %>
 </body>
 </html>
-<%@include file ="footer.jsp" %>
+

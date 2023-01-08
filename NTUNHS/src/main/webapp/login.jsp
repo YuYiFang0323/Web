@@ -55,7 +55,7 @@
        
        <font>
        ±b¸¹¡G<input type="text" name="ID" style="font-size:16px"><br><br>              
-       ±K½X¡G<input type="text" name="Pwd" style="font-size:16px"><br><br>       
+       ±K½X¡G<input type="password" name="Pwd" style="font-size:16px"><br><br>       
            <input type="submit" value="µn¤J" style="font-size:18px">
        </font> 
        
