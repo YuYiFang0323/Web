@@ -13,8 +13,8 @@
 
     <%
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-    Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\m\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb;");
-	Statement smt= con.createStatement();
+   Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\m\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb;");
+   Statement smt= con.createStatement();
 	String name = request.getParameter("name");
 	
 	
