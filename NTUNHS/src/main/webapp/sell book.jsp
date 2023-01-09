@@ -14,18 +14,40 @@
       
         <div class="col-md-6">
           <div class="form_container">
-            <form action="">            
-               <div>
-                <table style="border:3px #cccccc solid;" cellpadding="10" border='1' width="90%">
-                 <tr style="height:500px">
-                  <td align="center"><input type="submit" value="新增圖片"></td>
-                 </tr>
-                 <tr>
-                 <td align="center">請上傳三張照片</td>
-                 </tr>
-                </table>
-              </div>
-            </form>
+           <p style="font-size:30px;"> 請上傳三張照片</p>        
+         <!-- HTML part -->
+<form action="/somewhere/to/upload" enctype="multipart/form-data">
+   <input type="file" id="progressbarTWInput" accept="image/gif, image/jpeg, image/png" multiple/ >
+   <div id="preview_progressbarTW_imgs" style="width:100%; height: 300px; overflow:scroll;">
+       <p>目前沒有圖片</p>
+   </div>
+</form>
+
+<!-- JavaScript part -->
+<script>
+$("#progressbarTWInput").change(function(){
+  $("#preview_progressbarTW_imgs").html(""); // 清除預覽
+  readURL(this);
+});
+
+function readURL(input){
+  if (input.files && input.files.length >= 0) {
+    for(var i = 0; i < input.files.length; i ++){
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var img = $("<img width='300' height='200'>").attr('src', e.target.result);
+        $("#preview_progressbarTW_imgs").append(img);
+      }
+      reader.readAsDataURL(input.files[i]);
+    }
+  }else{
+     var noPictures = $("<p>目前沒有圖片</p>");
+     $("#preview_progressbarTW_imgs").append(noPictures);
+  }
+}
+</script>
+
+            
           </div>
         </div>
         
@@ -68,42 +90,9 @@
     </div>
   </section>
 
-<form action="/somewhere/to/upload" enctype="multipart/form-data">
 
-   <input type="file" onchange="readURL(this)" targetID="preview_progressbarTW_img" accept="image/gif, image/jpeg, image/png"/ >
 
-   <img id="preview_progressbarTW_img" src="#" />
 
-</form>
-
-<!-- JavaScript part -->
-
-<script>
-
-function readURL(input){
-
-  if(input.files && input.files[0]){
-
-    var imageTagID = input.getAttribute("targetID");
-
-    var reader = new FileReader();
-
-    reader.onload = function (e) {
-
-       var img = document.getElementById(imageTagID);
-
-       img.setAttribute("src", e.target.result)
-
-    }
-
-    reader.readAsDataURL(input.files[0]);
-
-  }
-
-}
-
-</script>
-  
 </body>
 </html>
 <%@include file ="footer.jsp" %>
