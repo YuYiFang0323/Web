@@ -73,7 +73,7 @@ function readURL(input){
                  </tr>
                   <tr style="height:60px">
                  <td align="left">數量： 　<input type="text" name="Quantity" value=""></td>
-                 <td align="left">上假日期：<input type="text" name="SoldDate" value=""></td>
+                 <td align="left">上架日期：<input type="date" name="SoldDate" value=""></td>
                  </tr>              
                  <tr style="height:60px">
                   <td align="center" colspan="2"><input type="submit" value="確定上架"></td>

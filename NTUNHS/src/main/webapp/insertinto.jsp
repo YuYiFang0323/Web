@@ -2,6 +2,13 @@
 <%@page import="java.sql.*"%>
 <jsp:useBean id='objDBConfig' scope='session' class='hitstd.group.tool.database.DBConfig' />
 
+ <%@ page import= "java.text.SimpleDateFormat" %>
+ <%@ page import= "java.text.DateFormat" %>
+ <%@ page import= "java.util.Calendar" %>
+ <%@ page import= "java.util.Date" %>
+ <%@ page import="java.io.*,java.util.*" %>
+<%@ page import="javax.servlet.*,java.text.*" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,24 +35,25 @@
 	String Quantity = new String(request.getParameter("Quantity"));
 	
 	//當日時間抓取值(yyyy-MM-dd HH:mm:ss)
-	Date SoldDate = new Date( );
+	Date Update = new Date( );
 	SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd");
 		
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("INSERT INTO EmployersList (ID, BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity, SoldDate) VALUES('"+ID+"','"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','" + ft.format(SoldDate) + "')");
+		smt.execute("INSERT INTO Book ( BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity, SoldDate) VALUES('"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','" + ft.format(Update) + "')");
+		smt.execute("INSERT INTO Seller(ID) VALUES('"+ID+"')");
 		con.close();
 		out.println("<script>");
 		out.println("alert('資料新增成功!');");
 		//問號的地方寫你們新增資料後要去的檔案位置
-		out.println("location='???.jsp';");
+		out.println("location='index.jsp';");
 		out.println("</script>");
 	
 	    }catch (Exception e){
 		out.println("<script>");
 		out.println("alert('資料新增失敗，有欄位尚未輸入內容!');");
 		//問號的地方寫你們新增失敗後要去的檔案位置
-		out.println("location='???.jsp';");
+		out.println("location='sell book.jsp';");
 		out.println("</script>");
 	}
 	%>
