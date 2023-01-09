@@ -50,12 +50,11 @@
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://"+objDBConfig.FilePath()+";");
 	Statement smt= con.createStatement();
-	String sql = "SELECT * FROM Member  WHERE ID ='" +102114917+"'"; 
+	String sql = "SELECT * FROM Member WHERE ID ='" +session.getAttribute("accessId")+"'"; 
 	ResultSet rs = smt.executeQuery(sql);
 	rs.next();
 	//連結DB
 	%>
-	
 	
 <br><br><br>
 <form>
