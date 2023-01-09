@@ -40,8 +40,8 @@
 		
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("INSERT INTO Book ( BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity, SoldDate) VALUES('"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','" + ft.format(Update) + "')");
 		smt.execute("INSERT INTO Seller(ID) VALUES('"+ID+"')");
+		smt.execute("INSERT INTO Book ( BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity, SoldDate) VALUES('"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','" + ft.format(Update) + "')");		
 		con.close();
 		out.println("<script>");
 		out.println("alert('資料新增成功!');");
