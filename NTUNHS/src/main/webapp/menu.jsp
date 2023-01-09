@@ -98,8 +98,10 @@
               <button style="background-color:transparent;border:none;font-size:22px" class="btn btn-danger nav-item-toggle" type="button" data-bs-toggle="nav-item" aria-expanded="false"aria-disabled="true"><b>會員專區</b></button>
               <div class="nav-item-menu" style="padding:0;font-size:18px" id="menu1"aria-labelledby="nav-itemMenuButton">
               <a class="list-group-item"href="#" ><b>收藏</b></a>
-              <a class="list-group-item"href="#" ><b>買/賣書訂單</b></a>
-              <a class="list-group-item"href="#" ><b>買/賣書紀錄</b></a>
+              <a class="list-group-item"href="buy book order.jsp" ><b>買書訂單</b></a>
+              <a class="list-group-item"href="sell book order.jsp" ><b>賣書訂單</b></a>
+              <a class="list-group-item"href="#" ><b>買書紀錄</b></a>
+              <a class="list-group-item"href="#" ><b>賣書紀錄</b></a>
               </div>
               </li>
             </ul>

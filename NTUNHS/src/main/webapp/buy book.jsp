@@ -21,8 +21,8 @@ td {
 <body>
  <table>
  <tr>
- <td style=" padding-left:400px;  width: 65%;"><input type="text" name="BookTitle" placeholder="請輸入欲查詢書本" style="font-size:20px;width:100%" background="black"></td>
- <td style="padding-left: 500px;font-size:20px;">
+ <td style=" padding-left:500px;  width: 65%;"><input type="text" name="BookTitle" placeholder="請輸入欲查詢書本" style="font-size:20px;width:100%" background="black"></td>
+ <td style="padding-left: 50px;font-size:20px;">
  <select name="s1">			
 <option>國文                
 <option>英文                

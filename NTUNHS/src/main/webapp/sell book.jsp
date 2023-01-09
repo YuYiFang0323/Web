@@ -15,21 +15,19 @@
         <div class="col-md-6">
           <div class="form_container">
            <p style="font-size:30px;"> 請上傳三張照片</p>        
-         <!-- HTML part -->
+        <!-- HTML part -->
 <form action="/somewhere/to/upload" enctype="multipart/form-data">
-   <input type="file" id="progressbarTWInput" accept="image/gif, image/jpeg, image/png" multiple/ >
+   <input type="file" id="progressbarTWInput" accept="image/jpg, image/jpeg, image/png" multiple/ >
    <div id="preview_progressbarTW_imgs" style="width:100%; height: 300px; overflow:scroll;">
        <p>目前沒有圖片</p>
    </div>
 </form>
-
 <!-- JavaScript part -->
 <script>
 $("#progressbarTWInput").change(function(){
   $("#preview_progressbarTW_imgs").html(""); // 清除預覽
   readURL(this);
 });
-
 function readURL(input){
   if (input.files && input.files.length >= 0) {
     for(var i = 0; i < input.files.length; i ++){
@@ -46,14 +44,13 @@ function readURL(input){
   }
 }
 </script>
-
             
           </div>
         </div>
         
          <div class="col-md-6">
           <div class="form_container">
-            <form action="">                          
+            <form action="insertinto.jsp">                          
                 <table style="width:125%" >
                  <tr style="height:60px">
                   <td align="center" colspan="2">學號：<input type="text" name="ID" value=""></td>
