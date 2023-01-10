@@ -154,7 +154,7 @@ td {
               <div>
                  <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div> 
                 </a>
                 <div class="detail-box">
@@ -196,7 +196,7 @@ td {
               <div>
                  <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -239,7 +239,7 @@ td {
               <div>
                  <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -281,7 +281,7 @@ td {
               <div>
                  <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -323,7 +323,7 @@ td {
               <div>
                 <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -365,7 +365,7 @@ td {
               <div>
                  <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f6.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -407,7 +407,7 @@ td {
               <div>
                  <a href="information book.jsp">
                 <div class="img-box">
-                  <img src="images/f7.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -448,7 +448,7 @@ td {
               <div>                
                  <a href="information book.jsp">
                  <div class="img-box">
-                  <img src="images/f8.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -489,7 +489,7 @@ td {
               <div>               
                  <a href="information book.jsp">
                  <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                   <img src="images/8787.jpg" alt="">
                 </div>
                 </a>
                 <div class="detail-box">
@@ -528,11 +528,7 @@ td {
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View More
-        </a>
-      </div>
+     
     </div>
   </section>
 

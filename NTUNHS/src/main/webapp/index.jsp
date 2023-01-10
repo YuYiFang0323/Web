@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<%@include file ="menu.jsp" %>
+<%@page import="java.sql.*"%>
+<%@include file ="menu.jsp"%>
+<jsp:useBean id='objDBConfig' scope='session' class='hitstd.group.tool.database.DBConfig' />
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,27 +53,26 @@
      </div> 
  
 
+
   <section class="food_section layout_padding-bottom">
     <div class="container">
-      <div class="heading_container heading_center">
-  
+      <div class="heading_container heading_center">  
        <br>
         <h2>
           最新上架
         </h2>
-      </div>
-
-    
-
+      </div>  
       <div class="filters-content">
         <div class="row grid">
           <div class="col-sm-6 col-lg-4 all pizza">
             <div class="box">
               <div>
-                <div class="img-box">
+               <a href="information book.jsp">                
+                 <div class="img-box">
                   <img src="images/8787.jpg" alt="">
                 </div>
-                <div class="detail-box">
+                  </a>
+                 <div class="detail-box">
                   <h5>
                     書名
                   </h5>
@@ -117,10 +118,12 @@
           <div class="col-sm-6 col-lg-4 all burger">
             <div class="box">
               <div>
-                <div class="img-box">
+                <a href="information book.jsp">                
+                 <div class="img-box">
                   <img src="images/8787.jpg" alt="">
                 </div>
-                <div class="detail-box">
+                  </a>
+                 <div class="detail-box">
                   <h5>
                     書名
                   </h5>
@@ -166,10 +169,12 @@
           <div class="col-sm-6 col-lg-4 all pizza">
             <div class="box">
               <div>
-                <div class="img-box">
+                <a href="information book.jsp">                
+                 <div class="img-box">
                   <img src="images/8787.jpg" alt="">
                 </div>
-                <div class="detail-box">
+                  </a>
+                 <div class="detail-box">
                   <h5>
                     書名
                   </h5>
@@ -215,10 +220,12 @@
           <div class="col-sm-6 col-lg-4 all pasta">
             <div class="box">
               <div>
-                <div class="img-box">
+                <a href="information book.jsp">                
+                 <div class="img-box">
                   <img src="images/8787.jpg" alt="">
                 </div>
-                <div class="detail-box">
+                  </a>
+                 <div class="detail-box">
                   <h5>
                     書名
                   </h5>
@@ -264,10 +271,12 @@
           <div class="col-sm-6 col-lg-4 all fries">
             <div class="box">
               <div>
-                <div class="img-box">
+                <a href="information book.jsp">                
+                 <div class="img-box">
                   <img src="images/8787.jpg" alt="">
                 </div>
-                <div class="detail-box">
+                  </a>
+                 <div class="detail-box">
                   <h5>
                     書名
                   </h5>
@@ -313,10 +322,12 @@
           <div class="col-sm-6 col-lg-4 all pizza">
             <div class="box">
               <div>
-                <div class="img-box">
+                <a href="information book.jsp">                
+                 <div class="img-box">
                   <img src="images/8787.jpg" alt="">
                 </div>
-                <div class="detail-box">
+                  </a>
+                 <div class="detail-box">
                   <h5>
                    書名
                   </h5>
