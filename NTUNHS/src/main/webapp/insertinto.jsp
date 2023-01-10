@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="utf-8"%>
 <%@page import="java.sql.*"%>
 <jsp:useBean id='objDBConfig' scope='session' class='hitstd.group.tool.database.DBConfig' />
 
@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <title>insert into</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://"+objDBConfig.FilePath()+";");
 	Statement smt= con.createStatement();
 	
-	//§ï¦¨§A­Ì¸ê®Æ®w¸ÌªºÄæ¦ì¦WºÙ¡Aµ¥¸¹¥ª¥k³£­n§ï¦¨¤@¼Ëªº
+	//æ”¹æˆä½ å€‘è³‡æ–™åº«è£¡çš„æ¬„ä½åç¨±ï¼Œç­‰è™Ÿå·¦å³éƒ½è¦æ”¹æˆä¸€æ¨£çš„
 	String ID = new String(request.getParameter("ID"));
 	String BookID = new String(request.getParameter("BookID"));
 	String SujectID = new String(request.getParameter("SujectID"));
@@ -33,26 +33,26 @@
 	String OriginalPrice = new String(request.getParameter("OriginalPrice"));
 	String Price = new String(request.getParameter("Price"));
 	String Quantity = new String(request.getParameter("Quantity"));
-	
-	//·í¤é®É¶¡§ì¨ú­È(yyyy-MM-dd HH:mm:ss)
+	String Picture = new String(request.getParameter("Picture"));
+	//ç•¶æ—¥æ™‚é–“æŠ“å–å€¼(yyyy-MM-dd HH:mm:ss)
 	Date Update = new Date( );
 	SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd");
 		
 	try{
-		//§â­nÄæ¦ì¦WºÙ¤]©ñ¨ì¤U¤è»yªk¹ïÀ³ªº¦ì¸m
+		//æŠŠè¦æ¬„ä½åç¨±ä¹Ÿæ”¾åˆ°ä¸‹æ–¹èªæ³•å°æ‡‰çš„ä½ç½®
 		smt.execute("INSERT INTO Seller(ID) VALUES('"+ID+"')");
-		smt.execute("INSERT INTO Book ( BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity, SoldDate) VALUES('"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','" + ft.format(Update) + "')");		
+		smt.execute("INSERT INTO Book ( BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity,Picture, SoldDate) VALUES('"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','"+Picture+"','" + ft.format(Update) + "')");		
 		con.close();
 		out.println("<script>");
-		out.println("alert('¸ê®Æ·s¼W¦¨¥\!');");
-		//°İ¸¹ªº¦a¤è¼g§A­Ì·s¼W¸ê®Æ«á­n¥hªºÀÉ®×¦ì¸m
+		out.println("alert('è³‡æ–™æ–°å¢æˆåŠŸ!');");
+		//å•è™Ÿçš„åœ°æ–¹å¯«ä½ å€‘æ–°å¢è³‡æ–™å¾Œè¦å»çš„æª”æ¡ˆä½ç½®
 		out.println("location='index.jsp';");
 		out.println("</script>");
 	
 	    }catch (Exception e){
 		out.println("<script>");
-		out.println("alert('¸ê®Æ·s¼W¥¢±Ñ¡A¦³Äæ¦ì©|¥¼¿é¤J¤º®e!');");
-		//°İ¸¹ªº¦a¤è¼g§A­Ì·s¼W¥¢±Ñ«á­n¥hªºÀÉ®×¦ì¸m
+		out.println("alert('è³‡æ–™æ–°å¢å¤±æ•—ï¼Œæœ‰æ¬„ä½å°šæœªè¼¸å…¥å…§å®¹!');");
+		//å•è™Ÿçš„åœ°æ–¹å¯«ä½ å€‘æ–°å¢å¤±æ•—å¾Œè¦å»çš„æª”æ¡ˆä½ç½®
 		out.println("location='sell book.jsp';");
 		out.println("</script>");
 	}

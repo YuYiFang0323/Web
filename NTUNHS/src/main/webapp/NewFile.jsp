@@ -9,7 +9,10 @@
 </head>
 <body>
 <section class="book_section layout_padding">
-    <div class="col-md-6">
+         
+      
+        
+         <div class="col-md-6">
           <div class="form_container">
             <form action="insertinto.jsp">                          
                 <table style="width:200%" >
@@ -59,6 +62,8 @@
             </form>
           </div>
         </div>   
+        
+    
   </section>
 
 
