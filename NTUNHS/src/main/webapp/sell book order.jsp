@@ -8,7 +8,8 @@
 <title>北護二手書平台</title>
 </head>
 <body>
-<h1 style="font-family:標楷體;font-size:40px;">賣書訂單</h1>
+<br>
+<h1 style="font-family:標楷體;font-size:40px;text-align:center">賣書訂單</h1>
                <table  style="width:100%">
                <tr >
                <td style="border: 1px solid black;border-collapse: collapse;">  

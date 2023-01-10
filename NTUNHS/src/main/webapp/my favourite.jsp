@@ -21,21 +21,18 @@ table{
   padding:5px;  
   width:350px;
   }
-  .relative{
+  .relative-left{
   position: relative;
   left: 10px; 
   } 
 
-  
- 
-  
 </style>
 
 </head>
 <body><br><br><br>
    
 <form>
-<div class="relative">
+<div class="relative-left">
 <table align="center">
   <tr>
    <td>
