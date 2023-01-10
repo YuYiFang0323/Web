@@ -34,13 +34,14 @@
 	String Price = new String(request.getParameter("Price"));
 	String Quantity = new String(request.getParameter("Quantity"));
 	String Picture = new String(request.getParameter("Picture"));
+	String BookStateID = new String(request.getParameter("BookStateID"));
 	//當日時間抓取值(yyyy-MM-dd HH:mm:ss)
 	Date Update = new Date( );
 	SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd");
-		
+	
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("INSERT INTO Seller(ID) VALUES('"+ID+"')");
+		smt.execute("INSERT INTO Seller(ID,BookStateID) VALUES('"+ID+"','"+BookStateID+"')");
 		smt.execute("INSERT INTO Book ( BookID, SujectID, BookTitle, Author, Publisher, ISBI, OriginalPrice, Price, Quantity,Picture, SoldDate) VALUES('"+BookID+"','"+SujectID+"','"+BookTitle+"','"+Author+"','"+Publisher+"','"+ISBI+"','"+OriginalPrice+"','"+Price+"','"+Quantity+"','"+Picture+"','" + ft.format(Update) + "')");		
 		con.close();
 		out.println("<script>");
