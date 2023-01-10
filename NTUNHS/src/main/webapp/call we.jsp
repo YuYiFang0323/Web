@@ -20,7 +20,7 @@
              
  <form   enctype="text/plain" accept-charset="utf-8">
      <!-- 寄件者姓名    -->
-     <input id="nameText" type="text" name="Name"  value size="40" placeholder="姓名(Name)" required><br><br>  <!-- required 必填欄位 ，placeholder 預設內容--> 
+     <input id="nameText" type="text" name="Name"  value size="40" placeholder="姓名(Name)" required ><br><br>  <!-- required 必填欄位 ，placeholder 預設內容--> 
      
      <!-- 寄件者email -->
      <input id="emailText" type="email" name="Email"  value size="40" placeholder="電子郵件(Email)" required><br><br> 
@@ -29,7 +29,7 @@
      <input  id="subText" type="text" name="Subject"  value size="40" aria-invalid="false" placeholder="主旨(Subject)" required><br><br>
              
      <!-- 郵件內容 -->
-     <textarea id="bodyText" name="your-message" cols="40" rows="10"  aria-required="true" aria-invalid="false" placeholder="你的訊息(Your Message)" required "></textarea>
+     <textarea id="bodyText" name="your-message" cols="40" rows="10"  aria-required="true" aria-invalid="false" placeholder="你的訊息(Your Message)" required ></textarea>
      
      <!-- 傳送按鈕 -->
      <div>
