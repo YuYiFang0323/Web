@@ -16,7 +16,7 @@
                <td style="border: 1px solid black;border-collapse: collapse;">  
                  <table>                        
                  <tr style="height:60px">
-                  <td style="width:40%;" align="center" rowspan="4"><img src="images/8787.jpg" width="600px" height="500px"></td>
+                  <td style="width:40%;" align="center" rowspan="4"><img src="images/8787.jpg" width="450px" height="400px"></td>
                   <td style="width:60%;"><label  style="font-size:20px;">賣家帳號：</label><input type="text" name="ID" value=""></td>
                  </tr>
                  <tr style="height:60px">
@@ -37,7 +37,7 @@
                 <td style="border: 1px solid black;border-collapse: collapse;">
                  <table>                        
                  <tr style="height:60px">
-                  <td style="width:40%;" align="center" rowspan="4"><img src="images/8787.jpg" width="600px" height="500px"></td>
+                  <td style="width:40%;" align="center" rowspan="4"><img src="images/8787.jpg" width="450px" height="400px"></td>
                   <td style="width:60%;"><label  style="font-size:20px;">賣家帳號：</label><input type="text" name="ID" value=""></td>
                  </tr>
                  <tr style="height:60px">
