@@ -31,11 +31,14 @@
   .AlignRight {
         text-align: right;
         color:#FFFFFF;
-        font-size:20px;
-        
-         }
+        font-size:20px;  
+              }
+         
+  .AlignRight1 {
+        text-align: center;
+        color:#FFFFFF; }      
     
-  .box {height:350px;}
+  .box {height:350px; }
 </style>
 
 </head>
@@ -59,6 +62,11 @@
 <br><br><br>
 <form>
 
+<div class="AlignRight1">
+  <h1><b>會員資料</b></h1>
+  <P>--------------------------------------------------------</P>
+</div> 
+  
 <div class="Data-Content">
     <div class="Data-Title">
         <div class="AlignRight">

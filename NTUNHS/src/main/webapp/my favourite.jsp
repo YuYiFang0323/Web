@@ -13,13 +13,21 @@
 
 tr,td{
   padding:10px;
-  width:350px;  }
+  width:350px;  
+  }
 
 table{
-  border: 2px solid black;
-  border-radius:50px;   	   
-  padding:15px;  
-  width:350px; }
+  border: 3px solid black;  	   
+  padding:5px;  
+  width:350px;
+  }
+  .relative{
+  position: relative;
+  left: 10px; 
+  } 
+
+  
+ 
   
 </style>
 
@@ -27,33 +35,196 @@ table{
 <body><br><br><br>
    
 <form>
-<table align="center" >
+<div class="relative">
+<table align="center">
   <tr>
-    <td colspan="2" align="center">照片</td>   
-  </tr>
-  
-  <tr >
-    <td colspan="2" align="center"> 書本名稱</td>    
+   <td>
+<table>
+  <tr>
+    <td align="center" rowspan="6"> <img src="images/book.jpg" height=200 width=150 ></td>       
   </tr>
   
   <tr>
-    <td align="center" rowspan="2">原價： <del>$205</del><br>定價： $100</td>
-    <td align="center" rowspan="2">目前庫存量： 2本</td>   
+    <td colspan="2"> 書本名稱</td>  
   </tr>
   
-   <tr ></tr>
+  <tr>
+    <td colspan="2"> 原價： <del>$205</del></td>
+  </tr>
   
+  <tr>
+    <td colspan="2">定價： $100</td>  
+  </tr>
+  
+  <tr> 
+    <td colspan="2">目前庫存量： 2本</td>  
+  </tr>
+
  <tr>
-    <td align="center"> <input type="submit" value="與賣家聊聊"></td>
-    <td align="center"> <input type="submit" value="加入購物車"></td>   
+    <td> <input type="submit" value="與賣家聊聊"></td>    
+    <td> <input type="submit" value="取消收藏"></td>   
   </tr>     
- 
+ </table>
+ </td>
+<!-- --------------我是分隔線-------------- -->
+<td>
+<table>
+  <tr>
+    <td align="center" rowspan="6"> <img src="images/book.jpg" height=200 width=150 ></td>       
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 書本名稱</td>  
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 原價： <del>$205</del></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">定價： $100</td>  
+  </tr>
+  
+  <tr> 
+    <td colspan="2">目前庫存量： 2本</td>  
+  </tr>
+
+ <tr>
+    <td> <input type="submit" value="與賣家聊聊"></td>    
+    <td> <input type="submit" value="取消收藏"></td>   
+  </tr>     
+ </table>
+</td>
+<!-- --------------我是分隔線-------------- -->
+<td>
+<table>
+  <tr>
+    <td align="center" rowspan="6"> <img src="images/book.jpg" height=200 width=150 ></td>       
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 書本名稱</td>  
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 原價： <del>$205</del></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">定價： $100</td>  
+  </tr>
+  
+  <tr> 
+    <td colspan="2">目前庫存量： 2本</td>  
+  </tr>
+
+ <tr>
+    <td> <input type="submit" value="與賣家聊聊"></td>    
+    <td> <input type="submit" value="取消收藏"></td>   
+  </tr>     
+ </table>
+</td>
+</tr>
 </table>
+</div>
+<!-- --------------我是分隔線-------------- -->
+<br>
+<!-- --------------我是分隔線-------------- -->
+<div class="relative">
+<table align="center">
+  <tr>
+   <td>
+<table>
+  <tr>
+    <td align="center" rowspan="6"> <img src="images/book.jpg" height=200 width=150 ></td>       
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 書本名稱</td>  
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 原價： <del>$205</del></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">定價： $100</td>  
+  </tr>
+  
+  <tr> 
+    <td colspan="2">目前庫存量： 2本</td>  
+  </tr>
 
+ <tr>
+    <td> <input type="submit" value="與賣家聊聊"></td>    
+    <td> <input type="submit" value="取消收藏"></td>   
+  </tr>     
+ </table>
+ </td>
+<!-- --------------我是分隔線-------------- -->
+<td>
+<table>
+  <tr>
+    <td align="center" rowspan="6"> <img src="images/book.jpg" height=200 width=150 ></td>       
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 書本名稱</td>  
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 原價： <del>$205</del></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">定價： $100</td>  
+  </tr>
+  
+  <tr> 
+    <td colspan="2">目前庫存量： 2本</td>  
+  </tr>
 
+ <tr>
+    <td> <input type="submit" value="與賣家聊聊"></td>    
+    <td> <input type="submit" value="取消收藏"></td>   
+  </tr>     
+ </table>
+</td>
+<!-- --------------我是分隔線-------------- -->
+<td>
+<table>
+  <tr>
+    <td align="center" rowspan="6"> <img src="images/book.jpg" height=200 width=150 ></td>       
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 書本名稱</td>  
+  </tr>
+  
+  <tr>
+    <td colspan="2"> 原價： <del>$205</del></td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">定價： $100</td>  
+  </tr>
+  
+  <tr> 
+    <td colspan="2">目前庫存量： 2本</td>  
+  </tr>
 
-
+ <tr>
+    <td> <input type="submit" value="與賣家聊聊"></td>    
+    <td> <input type="submit" value="取消收藏"></td>   
+  </tr>     
+ </table>
+</td>
+</tr>
+</table>
+</div>
 </form>
+
+
 <br><br><br>
 </body>
 </html>
