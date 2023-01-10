@@ -74,10 +74,10 @@
                   </a>
                  <div class="detail-box">
                   <h5>
-                    書名
+                   微積分
                   </h5>
                   <p>
-                   作者
+                   作者：
                   </p>
                   <div class="options">
                     <h6>
@@ -128,7 +128,7 @@
                     書名
                   </h5>
                   <p>
-                    作者
+                    作者：
                   </p>
                   <div class="options">
                     <h6>
@@ -179,7 +179,7 @@
                     書名
                   </h5>
                   <p>
-                    作者
+                    作者：
                   </p>
                   <div class="options">
                     <h6>
@@ -230,7 +230,7 @@
                     書名
                   </h5>
                   <p>
-                   作者
+                   作者：
                   </p>
                   <div class="options">
                     <h6>
@@ -278,7 +278,7 @@
                   </a>
                  <div class="detail-box">
                   <h5>
-                    書名
+                    書名：
                   </h5>
                   <p>
                     作者
@@ -332,7 +332,7 @@
                    書名
                   </h5>
                   <p>
-                    作者
+                    作者：
                   </p>
                   <div class="options">
                     <h6>
