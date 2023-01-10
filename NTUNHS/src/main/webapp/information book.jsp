@@ -10,12 +10,12 @@
 <body>
 <table style="width:100%">
  <tr>
-    <td style="width:40%;"><img id="prodImage" class="img-responsive" src="images/R.jpg"  width="700" height="600"></td>
+    <td style="width:40%;"><img id="prodImage" class="img-responsive" src="images/english.jpg"  width="700" height="600"></td>
     <td style="width:60%; vertical-align:text-top;"><div class="col-sm-7 col-xs-15 prodInfo">
 <div class="col-sm-15 xs-hide sm-hide" style="padding:0px;">
 <div class="col-sm-15" style=" padding-left: 0px;">
 <h4 style="font-weight:bold; margin-top:0px;line-height:30px;"><br>
-<span style="color:#755e5f; font-weight: normal; font-size:30px;">二手書交易資訊</span><br>書名：
+<span style="color:#755e5f; font-weight: normal; font-size:30px;">二手書交易資訊</span><br>書名：English for Your Caree 3
 
 </h4>
 </div>
@@ -36,14 +36,14 @@
 </div>
 </div>
 </div>
-<p><span class="book">作者：<span class="book"><a href="C:\\Users\\User\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb" class="linkStyle02">史賓賽強森</a></span></span></p>
-<p><span class="span04">出版社：<span><a href="C:\\Users\\User\\Documents\\GitHub\\Web\\NTUNHS\\src\\main\\webapp\\Ntunhs.accdb" class="linkStyle02">奧林文化事業有限公司</a></span></span></p>
-<p><span class="span04">ISBN：<span class="span04">9570391014</span></span></p>
-<p><span class="span04">定價：</span><span style=" text-decoration: line-through;margin-left: 5px; color: #333333;">元</span>
-<p><span class="span04">二手價：<small>NT$</small><span class="span04" style="color:#e2007e;"><strong>310</strong></span></span></p>
+<p><span class="book">作者：<span class="book">Tae Kudo/Joseph Henley</span></span></p>
+<p><span class="span04">出版社：<span>Cengage Learning</span></span></p>
+<p><span class="span04">ISBN：<span class="span04">ISBN9789869586146</span></span></p>
+<p><span class="span04">定價：</span><span style=" text-decoration: line-through;margin-left: 5px; color: #333333;">650元</span>
+<p><span class="span04">二手價：<small>NT$</small><span class="span04" style="color:#e2007e;"><strong>300</strong></span></span></p>
 <p><span class="span04">數量：<span class="span04">1</span></span></p>
-<p><span class="span04">書況說明：<span class="span04">1</span></span></p>
-<p><span class="span04">賣家資訊：<span class="span04">1</span></span></p>
+<p><span class="span04">書況說明：<span class="span04">7</span></span></p>
+<p><span class="span04">賣家資訊：<span class="span04">Due</span></span></p>
 <input type="submit" value="聯絡賣家我要購買">　　　　<input type="submit" value="收藏">
 </div></td>
   </tr>
