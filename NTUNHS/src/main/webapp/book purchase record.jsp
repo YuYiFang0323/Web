@@ -55,20 +55,20 @@ p {
    <td>
 <table>
   <tr>
-    <td align="center" colspan="2"><h3><b>賣家帳號</b></h3></td>  
+    <td align="center" colspan="2"><h3><b>102114909</b></h3></td>  
   </tr>
 
   <tr>
-    <td align="center" colspan="2"> <img src="images/book.jpg" height=250 width=200  ></td>       
+    <td align="center" colspan="2"> <img src="images/chinese.jpg" height=250 width=200  ></td>       
   </tr>
   
   <tr>
-    <td align="center" colspan="2"><b>賣家當初上架日期</b></td>  
+    <td align="center" colspan="2"><b>2023/01/05</b></td>  
   </tr>
     
   <tr>
     <td>購買件數：1本</td>  
-    <td>當初賣出價格：$200</td>
+    <td>當初買出價格：$100</td>
   </tr>	
     
   <tr>   
@@ -80,20 +80,20 @@ p {
 <td>
 <table>
   <tr>
-    <td align="center" colspan="2"><h3><b>賣家帳號</b></h3></td>  
+    <td align="center" colspan="2"><h3><b>102114912</b></h3></td>  
   </tr>
 
   <tr>
-    <td align="center" colspan="2"> <img src="images/book.jpg" height=250 width=200 ></td>       
+    <td align="center" colspan="2"> <img src="images/english.jpg" height=250 width=200 ></td>       
   </tr>
   
   <tr>
-    <td align="center" colspan="2"><b>賣家當初上架日期</b></td>  
+    <td align="center" colspan="2"><b>2022/01/01</b></td>  
   </tr>
   
   <tr>
     <td>購買件數：1本</td>  
-    <td>當初賣出價格：$200</td>
+    <td>當初買出價格：$200</td>
   </tr>	
     
   <tr>   
@@ -105,20 +105,20 @@ p {
 <td>
 <table>
   <tr>
-    <td align="center" colspan="2"><h3><b>賣家帳號</b></h3></td>  
+    <td align="center" colspan="2"><h3><b>102114917</b></h3></td>  
   </tr>
 
   <tr>
-    <td align="center" colspan="2"> <img src="images/book.jpg" height=250 width=200 ></td>       
+    <td align="center" colspan="2"> <img src="images/statistics.jpg" height=250 width=200 ></td>       
   </tr>
   
   <tr>
-    <td align="center" colspan="2"><b>賣家當初上架日期</b></td>  
+    <td align="center" colspan="2"><b>2022/10/25</b></td>  
   </tr>
     
   <tr>
     <td>購買件數：1本</td>  
-    <td>當初賣出價格：$200</td>
+    <td>當初買出價格：$500</td>
   </tr>	
     
   <tr>   

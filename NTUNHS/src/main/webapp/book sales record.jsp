@@ -54,16 +54,16 @@ p {
    <td>
 <table>
   <tr>
-    <td align="center" colspan="2"><h3><b>買家帳號</b></h3></td>  
+    <td align="center" colspan="2"><h3><b>102114918</b></h3></td>  
   </tr>
 
   <tr>
-    <td align="center" colspan="2"> <img src="images/book.jpg" height=250 width=200  ></td>       
+    <td align="center" colspan="2"> <img src="images/medical economics.jpg" height=250 width=200  ></td>       
   </tr>
   
   <tr>
     <td>買家購買件數：1本</td>  
-    <td>當初賣出價格：$200</td>
+    <td>當初賣出價格：$155</td>
   </tr>	
     
   <tr>   
@@ -75,16 +75,16 @@ p {
 <td>
 <table>
   <tr>
-    <td align="center" colspan="2"><h3><b>買家帳號</b></h3></td>  
+    <td align="center" colspan="2"><h3><b>102114912</b></h3></td>  
   </tr>
 
   <tr>
-    <td align="center" colspan="2"> <img src="images/book.jpg" height=250 width=200 ></td>       
+    <td align="center" colspan="2"> <img src="images/app.jpg" height=250 width=200 ></td>       
   </tr>
   
   <tr>
     <td>買家購買件數：1本</td>  
-    <td>當初賣出價格：$200</td>
+    <td>當初賣出價格：$250</td>
   </tr>	
     
   <tr>   
@@ -96,16 +96,16 @@ p {
 <td>
 <table>
   <tr>
-    <td align="center" colspan="2"><h3><b>買家帳號</b></h3></td>  
+    <td align="center" colspan="2"><h3><b>102114917</b></h3></td>  
   </tr>
 
   <tr>
-    <td align="center" colspan="2"> <img src="images/book.jpg" height=250 width=200 ></td>       
+    <td align="center" colspan="2"> <img src="images/public health.jpg" height=250 width=200 ></td>       
   </tr>
   
   <tr>
     <td>買家購買件數：1本</td>  
-    <td>當初賣出價格：$200</td>
+    <td>當初賣出價格：$160</td>
   </tr>	
     
   <tr>   

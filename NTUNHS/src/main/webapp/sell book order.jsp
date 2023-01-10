@@ -15,7 +15,7 @@
                <td style="border: 1px solid black;border-collapse: collapse;">  
                  <table>                        
                  <tr style="height:60px">
-                  <td style="width:40%;" align="center" rowspan="5"><img src="images/8787.jpg" width="600px" height="500px"></td>
+                  <td style="width:40%;" align="center" rowspan="5"><img src="images/8787.jpg" width="450px" height="400px"></td>
                   <td style="width:60%;"><label  style="font-size:20px;">買家帳號：</label><input type="text" name="ID" value=""></td>
                  </tr>
                  <tr style="height:60px">
@@ -28,14 +28,14 @@
                   <td style="width:60%;"><label style="font-size:20px;">定價：</label><input type="text" name="Price" value=""></td>
                  </tr>
                  <tr style="height:60px">
-                  <td style="width:60%%;"><input type="submit" value="連結買書畫面" style="font-size:20px;"></td>
+                  <td style="width:60%%;"><input type="submit" value="接受訂單" style="font-size:20px;"></td>
                  </tr>
                  </table>
                 </td>
                 <td style="border: 1px solid black;border-collapse: collapse;">
                 <table>                        
                  <tr style="height:60px">
-                  <td style="width:40%;" align="center" rowspan="5"><img src="images/8787.jpg" width="600px" height="500px"></td>
+                  <td style="width:40%;" align="center" rowspan="5"><img src="images/8787.jpg" width="450px" height="400px"></td>
                   <td style="width:60%;"><label  style="font-size:20px;">買家帳號：</label><input type="text" name="ID" value=""></td>
                  </tr>
                  <tr style="height:60px">
@@ -48,7 +48,7 @@
                   <td style="width:60%;"><label style="font-size:20px;">定價：</label><input type="text" name="Price" value=""></td>
                  </tr>
                  <tr style="height:60px">
-                  <td style="width:60%%;"><input type="submit" value="連結買書畫面" style="font-size:20px;"></td>
+                  <td style="width:60%%;"><input type="submit" value="接受訂單" style="font-size:20px;"></td>
                  </tr>
                  </table>
                 </td>
