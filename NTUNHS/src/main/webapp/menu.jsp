@@ -100,8 +100,8 @@
               <a class="list-group-item"href="my favourite.jsp" ><b>收藏</b></a>
               <a class="list-group-item"href="buy book order.jsp" ><b>買書訂單</b></a>
               <a class="list-group-item"href="sell book order.jsp" ><b>賣書訂單</b></a>
-              <a class="list-group-item"href="#" ><b>買書紀錄</b></a>
-              <a class="list-group-item"href="#" ><b>賣書紀錄</b></a>
+              <a class="list-group-item"href="book purchase record.jsp" ><b>買書紀錄</b></a>
+              <a class="list-group-item"href="book sales record.jsp" ><b>賣書紀錄</b></a>
               </div>
               </li>
             </ul>
