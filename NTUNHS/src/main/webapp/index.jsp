@@ -69,21 +69,21 @@
               <div>
                <a href="information book.jsp">                
                  <div class="img-box">
-                  <img src="images/8787.jpg" alt="">
+                  <img src="images/chinese.jpg" alt="">
                 </div>
                   </a>
                  <div class="detail-box">
                   <h5>
-                   微積分
+                   聊齋誌異選讀(二)
                   </h5>
                   <p>
-                   作者：
+                   作者：悅讀經典工作室
                   </p>
                   <div class="options">
                     <h6>
-                      $
+                      $100
                     </h6>
-                    <a href="">
+                    <a href="my favourite.jsp">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -120,21 +120,21 @@
               <div>
                 <a href="information book.jsp">                
                  <div class="img-box">
-                  <img src="images/8787.jpg" alt="">
+                  <img src="images/english.jpg" alt="">
                 </div>
                   </a>
                  <div class="detail-box">
                   <h5>
-                    書名
+                    English for Your Caree 3
                   </h5>
                   <p>
-                    作者：
+                    作者：AuthorTae Kudo/Joseph Henley
                   </p>
                   <div class="options">
                     <h6>
-                      $
+                      $300
                     </h6>
-                    <a href="">
+                    <a href="my favourite.jsp">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -171,21 +171,21 @@
               <div>
                 <a href="information book.jsp">                
                  <div class="img-box">
-                  <img src="images/8787.jpg" alt="">
+                  <img src="images/statistics.jpg" alt="">
                 </div>
                   </a>
                  <div class="detail-box">
                   <h5>
-                    書名
+                    現代統計學
                   </h5>
                   <p>
-                    作者：
+                    作者：陳正倉 林惠玲
                   </p>
                   <div class="options">
                     <h6>
-                      $
+                      $500
                     </h6>
-                    <a href="">
+                    <a href="my favourite.jsp">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -222,21 +222,21 @@
               <div>
                 <a href="information book.jsp">                
                  <div class="img-box">
-                  <img src="images/8787.jpg" alt="">
+                  <img src="images/medical economics.jpg" alt="">
                 </div>
                   </a>
                  <div class="detail-box">
                   <h5>
-                    書名
+                    醫療經濟學
                   </h5>
                   <p>
-                   作者：
+                   作者：劉亞明
                   </p>
                   <div class="options">
                     <h6>
-                      $
+                      $450
                     </h6>
-                    <a href="">
+                    <a href="my favourite.jsp">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -273,21 +273,21 @@
               <div>
                 <a href="information book.jsp">                
                  <div class="img-box">
-                  <img src="images/8787.jpg" alt="">
+                  <img src="images/app.jpg" alt="">
                 </div>
                   </a>
                  <div class="detail-box">
                   <h5>
-                    書名：
+                    App Inventor 2 第五版
                   </h5>
                   <p>
-                    作者
+                    作者：文淵閣工作室
                   </p>
                   <div class="options">
                     <h6>
-                      $
+                      $250
                     </h6>
-                    <a href="">
+                    <a href="my favourite.jsp">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
@@ -324,21 +324,21 @@
               <div>
                 <a href="information book.jsp">                
                  <div class="img-box">
-                  <img src="images/8787.jpg" alt="">
+                  <img src="images/public health.jpg" alt="">
                 </div>
                   </a>
                  <div class="detail-box">
                   <h5>
-                   書名
+                   公共衛生學
                   </h5>
                   <p>
-                    作者：
+                    作者：許怡欣
                   </p>
                   <div class="options">
                     <h6>
-                      $
+                      $500
                     </h6>
-                    <a href="">
+                    <a href="my favourite.jsp">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g>
                           <g>
